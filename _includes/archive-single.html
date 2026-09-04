@@ -78,6 +78,10 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% elseif post.dataseturl and post.bibtexurl %}
+      <p><a href="{{ post.dataseturl }}">Download Dataset</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% elsif post.dataseturl %}
+      <p><a href="{{ post.dataseturl }}">Download Dataset</a></p>
     {% endif %}
 
   </article>
