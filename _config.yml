@@ -26,9 +26,9 @@ author:
   avatar           : "professional2021.png"
   name             : "Ziyu Li"
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "spatial statics, ML, kernel methods, and applications in environmental science"
+  location         : "Boulder, Colorado, USA"
+  employer         : "Colorado School of Mines"
   uri              : # URL
   email            : "none@example.org" 
 
