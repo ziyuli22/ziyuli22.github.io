@@ -51,6 +51,8 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
+        {% elsif page.citation and page.paperurl and page.arxivurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
@@ -63,6 +65,10 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.dataseturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a></p>
+        {% elsif page.citation and page.arxivurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+        {% elsif page.citation and page.arxivurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
@@ -73,6 +79,10 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.dataseturl }}">Dataset</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.dataseturl %}
           <p style="font-size: smaller"><a href="{{ page.dataseturl }}">Dataset</a></p>
+        {% elsif page.arxivurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+        {% elsif page.arxivurl %}
+          <p style="font-size: smaller"><a href="{{ page.arxivurl }}">ArXiv</a></p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a></p>
         {% elsif page.bibtexurl %}
