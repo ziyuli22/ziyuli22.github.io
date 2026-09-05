@@ -11,8 +11,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Presentations"
+    url: /talks/ # this will reference the talks folder
 
   #- title: "Teaching"
   #  url: /teaching/    
@@ -28,7 +28,7 @@ main:
   
   - title: "Code"
     url: /code/
-    
+
   # - title: "CV"
   #   url: /cv-json/
     
