@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello! Welcome to my site. I am a PhD Candidate in Statistics at the Colorado School fo Mines. My research interests are computational statistics and mathematics, spatial statistics, and machine learning with applications in hydrology and meterology. 
+Hello! Welcome to my site. I am a PhD Candidate in Statistics at the Colorado School fo Mines, Golden, USA. My research interests are computational statistics and mathematics with applications in hydrology and meterology. 
