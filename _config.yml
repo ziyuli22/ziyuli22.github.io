@@ -90,6 +90,15 @@ publication_category:
   posters:
     title: 'Posters'
 
+# Publication Project Grouping - Optional. If you want to group papers/posters by project
+# instead of only by publication type, add a `project:` field to each publication and define
+# project groups here.
+publication_project:
+  dCFE:
+    title: 'dCFE'
+  rap:
+    title: 'Rapid Approximation Prediction'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)

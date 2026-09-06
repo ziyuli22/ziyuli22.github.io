@@ -71,6 +71,10 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.abstracturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a></p>
+        {% elsif page.citation and page.posterurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+        {% elsif page.citation and page.posterurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a></p>
         {% elsif page.citation and page.arxivurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.arxivurl %}
@@ -89,6 +93,10 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.abstracturl %}
           <p style="font-size: smaller"><a href="{{ page.abstracturl }}">Abstract</a></p>
+        {% elsif page.posterurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+        {% elsif page.posterurl %}
+          <p style="font-size: smaller"><a href="{{ page.posterurl }}">Poster</a></p>
         {% elsif page.arxivurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.arxivurl %}
