@@ -7,11 +7,11 @@ author_profile: true
 
 ## Talks
 
-#### Conference Proceeding talk 3 on Relevant Topic in Your Field
+### Conference Proceeding talk 3 on Relevant Topic in Your Field
 
-March 01, 2014
+May 29, 2026
 
-Conference proceedings talk, Testing Institute of America 2014 Annual Conference, Los Angeles, CA, USA
+CIROH DevCon 2026 Workshop Talk, Testing Institute of America 2014 Annual Conference, Los Angeles, CA, USA
 
 ### Talk 2 on Relevant Topic in Your Field
 
