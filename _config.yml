@@ -90,13 +90,6 @@ research_category:
   posters:
     title: 'Posters'
 
-# Presentation Category - The following the list of presentation categories and their headings
-presentation_category:
-  talks:
-    title: 'Talks'
-  posters:
-    title: 'Posters'
-    
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
