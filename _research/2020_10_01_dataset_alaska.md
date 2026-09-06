@@ -1,8 +1,8 @@
 ---
 title: "Water quality and gas fluxes of Interior Alaska (2014-2018)"
-collection: publications
+collection: research
 category: datasets
-permalink: /publication/2020_10_01_dataset_alaska
+permalink: /research/2020_10_01_dataset_alaska
 date: 2020-10-01
 venue: 'USGS ScienceBase'
 dataseturl: 'https://www.sciencebase.gov/catalog/item/5bb786b0e4b0fc368e906b09'

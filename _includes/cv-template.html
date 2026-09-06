@@ -145,12 +145,12 @@
   </div>
   {% endif %}
   
-  {% if cv.publications.size > 0 %}
-  <!-- Publications -->
+  {% if cv.research.size > 0 %}
+  <!-- Research -->
   <div class="cv-section">
-    <h2>Publications</h2>
+    <h2>Research</h2>
     <ul class="cv-list">
-      {% for publication in cv.publications %}
+      {% for publication in cv.research %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ publication.name }}</div>
@@ -174,7 +174,7 @@
   {% endif %}
   
   {% if cv.presentations.size > 0 %}
-  <!-- Presentations/Talks -->
+  <!-- Presentations -->
   <div class="cv-section">
     <h2>Presentations</h2>
     <ul class="cv-list">

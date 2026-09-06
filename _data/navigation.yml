@@ -9,10 +9,10 @@
 
 main:
   - title: "Research"
-    url: /publications/ # folder for Research
+    url: /research/ # folder for Research
 
   - title: "Presentations"
-    url: /talks/   # folder for presentations
+    url: /presentations/   # folder for presentations
 
   - title: "Teaching"
     url: /teaching/    

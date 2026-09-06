@@ -1,8 +1,8 @@
 ---
 title: "Rapid Approximation Prediction for Kriging"
-collection: publications
+collection: research
 category: manuscripts #datasets, manuscripts
-permalink: /publication/2026_05_28_article_rap
+permalink: /research/2026_05_28_article_rap
 date: 2026-05-28
 #venue: 'USGS ScienceBase'
 arxivurl: 'https://arxiv.org/abs/2605.29284'

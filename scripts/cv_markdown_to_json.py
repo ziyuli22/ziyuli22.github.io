@@ -248,12 +248,12 @@ def parse_skills(skills_text):
     
     return skills_entries
 
-def parse_publications(pub_dir):
-    """Parse publications from the _publications directory."""
-    publications = []
+def parse_research(pub_dir):
+    """Parse research from the _research directory."""
+    research = []
     
     if not os.path.exists(pub_dir):
-        return publications
+        return research
     
     for pub_file in sorted(glob.glob(os.path.join(pub_dir, "*.md"))):
         with open(pub_file, 'r', encoding='utf-8') as file:
@@ -273,18 +273,18 @@ def parse_publications(pub_dir):
                 "summary": front_matter.get('excerpt', '')
             }
             
-            publications.append(pub_entry)
+            research.append(pub_entry)
     
-    return publications
+    return research
 
-def parse_talks(talks_dir):
-    """Parse talks from the _talks directory."""
-    talks = []
+def parse_presentations(presentations_dir):
+    """Parse presentations from the _presentations directory."""
+    presentations = []
     
-    if not os.path.exists(talks_dir):
-        return talks
+    if not os.path.exists(presentations_dir):
+        return presentations
     
-    for talk_file in sorted(glob.glob(os.path.join(talks_dir, "*.md"))):
+    for talk_file in sorted(glob.glob(os.path.join(presentations_dir, "*.md"))):
         with open(talk_file, 'r', encoding='utf-8') as file:
             content = file.read()
         
@@ -302,9 +302,9 @@ def parse_talks(talks_dir):
                 "description": front_matter.get('excerpt', '')
             }
             
-            talks.append(talk_entry)
+            presentations.append(talk_entry)
     
-    return talks
+    return presentations
 
 def parse_teaching(teaching_dir):
     """Parse teaching from the _teaching directory."""
@@ -386,11 +386,11 @@ def create_cv_json(md_file, config_file, repo_root, output_file):
         "references": []
     }
     
-    # Add publications
-    cv_json["publications"] = parse_publications(os.path.join(repo_root, "_publications"))
+    # Add research
+    cv_json["research"] = parse_research(os.path.join(repo_root, "_research"))
     
-    # Add talks
-    cv_json["presentations"] = parse_talks(os.path.join(repo_root, "_talks"))
+    # Add presentations
+    cv_json["presentations"] = parse_presentations(os.path.join(repo_root, "_presentations"))
     
     # Add teaching
     cv_json["teaching"] = parse_teaching(os.path.join(repo_root, "_teaching"))
