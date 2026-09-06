@@ -1,13 +1,11 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
 
 Education
 ======
@@ -34,22 +32,16 @@ Work experience
 
 Research
 ======
-  <ul>{% for post in site.research reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+[See research](/research/)
+
 Presentations
 ======
-  <ul>{% for post in site.presentations reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+[See presentations](/presentations/)
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<!-- Add teaching experience here. -->
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
