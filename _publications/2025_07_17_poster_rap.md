@@ -1,7 +1,7 @@
 ---
 title: "Rapid Approximation Prediction for Kriging"
 collection: publications
-category: manuscripts #datasets, manuscripts
+category: posters #datasets, manuscripts
 project: rap
 permalink: /publication/2026_05_28_article_rap
 date: 2026-05-28
