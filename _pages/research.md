@@ -11,11 +11,11 @@ You can also find my articles on [Google Scholar](https://scholar.google.com/cit
 
 ### Rapid Approximation Prediction for Kriging
 
-2026
+Preprint, 2026
 
 Li, Z., Fasshauer, G., Nychka, D., 2026. Rapid Approximation Prediction for Kriging. https://doi.org/10.48550/arXiv.2605.29284
 
-[ArXiv](https://arxiv.org/abs/2605.29284) | [BibTeX](https://ziyuli22.github.io/files/2026_05_28_article_rap.bib)
+[ArXiv](https://arxiv.org/abs/2605.29284) \| [BibTeX](https://ziyuli22.github.io/files/2026_05_28_article_rap.bib)
 
 ## Datasets
 
