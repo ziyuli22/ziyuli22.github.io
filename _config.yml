@@ -1,6 +1,6 @@
 # Site settings and author sidebar. Page content lives in _pages/.
 locale: en-US
-site_theme: default
+site_theme: air
 title: Ziyu Li
 title_separator: "-"
 name: Ziyu Li
