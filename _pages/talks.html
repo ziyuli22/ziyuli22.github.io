@@ -11,6 +11,10 @@ author_profile: true
 
 {% endif %}
 
+<p><strong><a href="/talks/posters/">View posters</a></strong></p>
+
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% unless post.url == "/talks/posters/" %}
+    {% include archive-single-talk.html %}
+  {% endunless %}
 {% endfor %}
