@@ -49,42 +49,44 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.arxivurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.citation and page.dataseturl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.dataseturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a></p>
-        {% elsif page.citation and page.abstracturl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.abstracturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a></p>
-        {% elsif page.citation and page.posterurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.posterurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a></p>
-        {% elsif page.citation and page.arxivurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.arxivurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a></p>
+        {% if page.citation %}
+          {% if page.paperurl and page.slidesurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.paperurl and page.slidesurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
+          {% elsif page.paperurl and page.arxivurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.paperurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.paperurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
+          {% elsif page.slidesurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.slidesurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
+          {% elsif page.dataseturl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.dataseturl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.dataseturl }}">Dataset</a></p>
+          {% elsif page.abstracturl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.abstracturl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a></p>
+          {% elsif page.posterurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.posterurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a></p>
+          {% elsif page.arxivurl and page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% elsif page.arxivurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.arxivurl }}">ArXiv</a></p>
+          {% elsif page.bibtexurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          {% else %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          {% endif %}
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.dataseturl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.dataseturl }}">Dataset</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.dataseturl %}

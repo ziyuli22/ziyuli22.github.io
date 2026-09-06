@@ -54,40 +54,42 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
-    {% elsif post.citation and post.paperurl and post.arxivurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.arxivurl }}">ArXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a></p>
-    {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl}}">Bibtex</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a></p>
-    {% elsif post.citation and post.dataseturl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.dataseturl }}">Dataset</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.dataseturl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.dataseturl }}">Dataset</a></p>
-    {% elsif post.citation and post.abstracturl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.abstracturl }}">Abstract</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.abstracturl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.abstracturl }}">Abstract</a></p>
-    {% elsif post.citation and post.posterurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.posterurl }}">Poster</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.posterurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.posterurl }}">Poster</a></p>
-    {% elsif post.citation and post.arxivurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.arxivurl }}">ArXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation and post.arxivurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.arxivurl }}">ArXiv</a></p>
-    {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Bibtex</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+    {% if post.citation %}
+      {% if post.paperurl and post.slidesurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.paperurl and post.slidesurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
+      {% elsif post.paperurl and post.arxivurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.arxivurl }}">ArXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.paperurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.paperurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a></p>
+      {% elsif post.slidesurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl}}">Bibtex</a></p>
+      {% elsif post.slidesurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a></p>
+      {% elsif post.dataseturl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.dataseturl }}">Dataset</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.dataseturl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.dataseturl }}">Dataset</a></p>
+      {% elsif post.abstracturl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.abstracturl }}">Abstract</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.abstracturl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.abstracturl }}">Abstract</a></p>
+      {% elsif post.posterurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.posterurl }}">Poster</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.posterurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.posterurl }}">Poster</a></p>
+      {% elsif post.arxivurl and post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.arxivurl }}">ArXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% elsif post.arxivurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.arxivurl }}">ArXiv</a></p>
+      {% elsif post.bibtexurl %}
+        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Bibtex</a></p>
+      {% else %}
+        <p>Recommended citation: {{ post.citation }}</p>
+      {% endif %}
     {% elsif post.paperurl and post.bibtexurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% elsif post.paperurl %}
