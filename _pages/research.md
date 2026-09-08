@@ -29,8 +29,3 @@ Recommended citation: Foks, S.S., Dornblaser, M.M., Bogard, M.J., Butman, D., Ca
 
 ## Posters
 
-### Rapid Approximation Prediction for Kriging
-
-2025
-
-[Poster](https://ziyuli22.github.io/files/2025_07_17_poster_rap.pdf)
