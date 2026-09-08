@@ -17,16 +17,17 @@ redirect_from:
 
 ## Awards & Honors
 
-Graduate Teaching Award
+* 2026 Graduate Student Teaching Award
+  * <span style="font-size: 0.9em;"> AMS, Colorado School of Mines </span>
 
 ## Research
-[See "Research"!](/research/)
+[See "Research"](/research/)
 
 ## Work experience
 * Summer 2025: Textbook Editorial Assistant
-  * Department of Applied Mathematics & Statistics, Colorado School of Mines
-  * Duties includes: compiling, creating solutions, and developing R-Markdown workbooks for a textbook. 
-  * Supervisor: Douglas Nychka
+  * <span style="font-size: 0.9em;"> Department of Applied Mathematics & Statistics, Colorado School of Mines </span>
+  * <span style="font-size: 0.9em;"> Duties includes: compiling, creating solutions, and developing R-Markdown workbooks for a textbook. </span>
+  * <span style="font-size: 0.9em;"> Supervisor: Douglas Nychka </span>
 
 * Summers 2022 -- 2026: Mathematics Instructor
   * PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder
