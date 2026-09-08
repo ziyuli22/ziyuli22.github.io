@@ -1,15 +1,1 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
-
-<script>
-  /* Open external sites and documents in a new tab, keeping page navigation here. */
-  document.querySelectorAll('a[href]').forEach((link) => {
-    const url = new URL(link.href, document.baseURI);
-    if (!['http:', 'https:'].includes(url.protocol)) return;
-    if (link.hasAttribute('target') || link.hasAttribute('download')) return;
-
-    if (url.origin !== window.location.origin || /\.(pdf|bib)$/i.test(url.pathname)) {
-      link.target = '_blank';
-      link.relList.add('noopener', 'noreferrer');
-    }
-  });
-</script>
