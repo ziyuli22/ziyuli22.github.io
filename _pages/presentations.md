@@ -21,9 +21,9 @@ The University of Utah, Salt Lake City, UT, USA
 <span style="font-size: 0.9em;">
 Authors: **Ziyu Li**, Greg Fasshauer, Doug Nychka <br>
 </span>
-<span style="font-size: 0.9em;"> - July 17, 2025 <br>
+- <span style="font-size: 0.9em;"> July 17, 2025 <br>
     Poster Session, The 7th Spatial Statistics Conference 2025, Noordwijk, The Netherlands <br>
-    [Poster](https://ziyuli22.github.io/files/2025_07_17_poster_rap.pdf)
-</span>
+    [Poster](https://ziyuli22.github.io/files/2025_07_17_poster_rap.pdf)</span>
+
 
 
