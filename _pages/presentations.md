@@ -19,7 +19,7 @@ The University of Utah, Salt Lake City, Utah
 <span style="font-size: 0.9em;">
 November 22, 2024 <br>
 AMS Graduate Student Colloqium <br>
-(* in preperation for proposal defense * ) <br>
+(*in preperation for proposal defense* ) <br>
 Golden, Colorado <br>
 [Updated Slides](https://ziyuli22.github.io/files/2024_11_22_slides_qual.pdf)
 </span>
