@@ -30,18 +30,23 @@ redirect_from:
   * <span style="font-size: 0.9em;"> Supervisor: Douglas Nychka </span>
 
 * Summers 2022 -- 2026: Mathematics Instructor
-  * PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder
-  * Duties included: creating engaging lectures on pre-calculus, calculus, and introduction to statistics to underprivileged high school seniors to prepare and advance them in college level courses. 
-  * Supervisor: Amy Molina, Victor Hernandez, Valeria Morales, Angie Chavez-Lopez, M.A 
+  * <span style="font-size: 0.9em;"> PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder </span>
+  * <span style="font-size: 0.9em;"> Duties included: creating engaging lectures on pre-calculus, calculus, and introduction to statistics to underprivileged high school seniors to prepare and advance them in college level courses. </span>
+  * <span style="font-size: 0.9em;"> Supervisor: Amy Molina, Victor Hernandez, Valeria Morales, Angie Chavez-Lopez, M.A </span>
 
 * 2017 -- 2020: Student Laboratory Contractor/Physical Science Technician
-  * U.S. Geological Survey, Department of Interior
-  * Duties included: sample processing, storage, experimentation and analysis of Wetland Carbon Allequash Creek Project and the Arctic Boreal Vulnerability Experiments I & II (ABoVE)
-  * Supervisors: Kimberly Wickland, [Syndney S. Foks](https://scholar.google.com/citations?user=TuJ53joAAAAJ&hl=en)
+  * <span style="font-size: 0.9em;"> U.S. Geological Survey, Department of Interior </span>
+  * <span style="font-size: 0.9em;"> Duties included: sample processing, storage, experimentation and analysis of Wetland Carbon Allequash Creek Project and the Arctic Boreal Vulnerability Experiments I & II (ABoVE) </span>
+  * <span style="font-size: 0.9em;"> Supervisors: Kimberly Wickland, [Syndney S. Foks](https://scholar.google.com/citations?user=TuJ53joAAAAJ&hl=en) </span>
 
-Presentations
-======
-[See presentations](/presentations/)
+* 2016 -- 2023: Student Assistant/Manager's Assistant
+  * <span style="font-size: 0.9em;">Green Labs Program, University of Colorado -- Boulder</span>
+  * <span style="font-size: 0.9em;">Duties includes: managing mobile freezer program, creating graphics, designed and conducted research on effectiveness of sustainability campaign, helped coordinate a team, in hiring committees. </span>
+  * <span style="font-size: 0.9em;"> Kathryn Ramirez-Aguilar, [Christina Greever-Wilson](https://www.linkedin.com/in/christina-greever-wilson-5a6a6744/)</span>
+
+## Presentations
+
+[See "Presentations"](/presentations/)
 
 Teaching
 ======
