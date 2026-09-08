@@ -1,1 +1,9 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+	document.querySelectorAll('a[href]').forEach((link) => {
+		if (!link.closest('#site-nav') && !link.getAttribute('href').startsWith('#')) {
+			link.target = '_blank';
+			link.rel = 'noopener noreferrer';
+		}
+	});
+</script>
