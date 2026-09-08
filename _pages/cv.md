@@ -8,13 +8,15 @@ redirect_from:
 ---
 
 ## Education
-* Ph.D in Statistics, Colorado School of Mines, Dec. 2028 (Expected)
-  * Advisors: [Douglas Nychka](https://dnychka.github.io/) and [Daniel Mckenzie](https://danielmckenzie.github.io/)
-* M.S. in Applied Mathematics, May 2023
-* B.S. in Environmental Engineering, Dec. 2020
+
+### Ph.D in Statistics, Colorado School of Mines, Dec. 2028 (Expected)
+<span style="font-size: 0.9em;"> Advisors: [Douglas Nychka](https://dnychka.github.io/) and [Daniel Mckenzie](https://danielmckenzie.github.io/) </span>
+
+### M.S. in Applied Mathematics, May 2023
+### B.S. in Environmental Engineering, Dec. 2020
   * Certified in 40-hr Hazardous Waste Operations and Emergency Response (HAZWOP)
 
-## Awards \& Honors
+## Awards & Honors
 
 Graduate Teaching Award
 
