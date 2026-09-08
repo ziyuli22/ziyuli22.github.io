@@ -8,8 +8,9 @@ author_profile: true
 ## Talks
 
 ### Incorporating Process-Based Models into Neuralhydrology -- Lessons Learned and Future Directions
+<small>
 Authors: Daniel McKenzie, Andy Wood, **Ziyu Li** <br>
-<small>May 29, 2026
+May 29, 2026
 
 ML Workshop Talk, CIROH DevCon 2026 Conference, 
 The University of Utah, Salt Lake City, UT, USA
