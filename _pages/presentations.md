@@ -8,9 +8,8 @@ author_profile: true
 ## Talks
 
 ### Incorporating Process-Based Models into Neuralhydrology -- Lessons Learned and Future Directions
-Authors: Daniel McKenzie, Andy Wood, *Ziyu Li*
-
-May 29, 2026
+Authors: Daniel McKenzie, Andy Wood, **Ziyu Li**
+<br>nMay 29, 2026 <small>May 29, 2026</small>
 
 ML Workshop Talk, CIROH DevCon 2026 Conference, 
 The University of Utah, Salt Lake City, UT, USA
@@ -19,7 +18,8 @@ The University of Utah, Salt Lake City, UT, USA
 ## Posters
 
 ### Rapid Approximation Prediction for Kriging
-Authors: *Ziyu Li*, Greg Fasshauer, Doug Nychka
+Authors: **Ziyu Li**, Greg Fasshauer, Doug Nychka
+
 July 17, 2025
 
 Poster Session, The 7th Spatial Statistics Conference 2025, Noordwijk, The Netherlands
