@@ -25,7 +25,7 @@ Recommended citation: Foks, S.S., Dornblaser, M.M., Bogard, M.J., Butman, D., Ca
 [Dataset](https://www.sciencebase.gov/catalog/item/5bb786b0e4b0fc368e906b09) \| [BibTeX](https://ziyuli22.github.io/files/2020_10_01_dataset_alaska.bib)
 </span>
 
-## Posters
+## Highlight Posters
 
 
 
