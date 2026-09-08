@@ -9,7 +9,7 @@ author_profile: true
 
 ### Incorporating Process-Based Models into Neuralhydrology -- Lessons Learned and Future Directions
 <span style="font-size: 0.9em;">
-Authors: Daniel McKenzie, Andy Wood, *Ziyu Li* <br>
+Presenters: Daniel McKenzie, Andy Wood, *Ziyu Li* <br>
 May 29, 2026 <br>
 ML Workshop Talk, CIROH (Cooperative Institute for Research to Operations in Hydrology) DevCon 2026 <br>
 The University of Utah, Salt Lake City, Utah
@@ -24,6 +24,13 @@ Golden, Colorado <br>
 [Updated Slides](https://ziyuli22.github.io/files/2024_11_22_slides_qual.pdf)
 </span>
 
+### A 2022 CU Green Labs Fume Hood Sash Contest: Impact on User Behavior, Safety, and Energy Savings at the Jennie Smoly Caruthers Biotechnology Building (JSCBB) at the University of Colorado Boulder
+<span style="font-size: 0.9em;">
+November, 2022 <br>
+I2SL (The International Institute for Sustainable Laboratories) Annual Conference 2022 <br>
+Pittsburgh, Pennsylvania <br>
+[Slides](https://ziyuli22.github.io/files/2022_11_slides_i2sl.pdf)
+</span>
 
 ## Posters
 

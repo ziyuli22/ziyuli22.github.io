@@ -17,9 +17,13 @@ redirect_from:
 
 ## Awards & Honors
 
-* 2026 Graduate Student Teaching Award
+* Graduate Student Teaching Award
+  * <span style="font-size: 0.9em;"> 2026 </span>
   * <span style="font-size: 0.9em;"> AMS, Colorado School of Mines </span>
 
+* 7 Year Service Award
+  * 2023
+  * <span style="font-size: 0.9em;"> CU Green Labs Program, University of Colorado -- Boulder </span>
 ## Research
 [See "Research"](/research/)
 
@@ -27,7 +31,7 @@ redirect_from:
 * Summer 2025: Textbook Editorial Assistant
   * <span style="font-size: 0.9em;"> Department of Applied Mathematics & Statistics, Colorado School of Mines </span>
   * <span style="font-size: 0.9em;"> Duties includes: compiling, creating solutions, and developing R-Markdown workbooks for a textbook. </span>
-  * <span style="font-size: 0.9em;"> Supervisor: Douglas Nychka </span>
+  * <span style="font-size: 0.9em;"> Supervisor: [Douglas Nychka](https://dnychka.github.io/) </span>
 
 * Summers 2022 -- 2026: Mathematics Instructor
   * <span style="font-size: 0.9em;"> PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder </span>
@@ -40,9 +44,9 @@ redirect_from:
   * <span style="font-size: 0.9em;"> Supervisors: Kimberly Wickland, [Syndney S. Foks](https://scholar.google.com/citations?user=TuJ53joAAAAJ&hl=en) </span>
 
 * 2016 -- 2023: Student Assistant/Manager's Assistant
-  * <span style="font-size: 0.9em;">Green Labs Program, University of Colorado -- Boulder</span>
+  * <span style="font-size: 0.9em;">CU Green Labs Program, University of Colorado -- Boulder</span>
   * <span style="font-size: 0.9em;">Duties includes: managing mobile freezer program, creating graphics, designed and conducted research on effectiveness of sustainability campaign, helped coordinate a team, in hiring committees. </span>
-  * <span style="font-size: 0.9em;"> Kathryn Ramirez-Aguilar, [Christina Greever-Wilson](https://www.linkedin.com/in/christina-greever-wilson-5a6a6744/)</span>
+  * <span style="font-size: 0.9em;"> [Kathryn Ramirez-Aguilar, PhD](https://www.linkedin.com/in/kathryn-ramirez-aguilar-phd-7349b232/), [Christina Greever-Wilson](https://www.linkedin.com/in/christina-greever-wilson-5a6a6744/), [Leoncio Lagarde](https://www.linkedin.com/in/leoncio-lagarde-0678a9149/)</span>
 
 ## Presentations
 
