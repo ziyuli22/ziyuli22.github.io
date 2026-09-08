@@ -12,8 +12,18 @@ author_profile: true
 Authors: Daniel McKenzie, Andy Wood, **Ziyu Li** <br>
 May 29, 2026 <br>
 ML Workshop Talk, CIROH (Cooperative Institute for Research to Operations in Hydrology) DevCon 2026 <br>
-The University of Utah, Salt Lake City, UT, USA
+The University of Utah, Salt Lake City, Utah
 </span>
+
+### Fast Kriging Uncertainty Quantification and LSTM: Tools for the Spatial and Temporal Aspects of Hydrologic Modeling
+<span style="font-size: 0.9em;">
+November 22, 2024 <br>
+AMS Graduate Student Colloqium <br>
+(* in preperation for proposal defense * ) <br>
+Golden, Colorado <br>
+[Updated Slides](https://ziyuli22.github.io/files/2024_11_22_slides_qual.pdf)
+</span>
+
 
 ## Posters
 
