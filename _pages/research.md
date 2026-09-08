@@ -27,5 +27,10 @@ Recommended citation: Foks, S.S., Dornblaser, M.M., Bogard, M.J., Butman, D., Ca
 
 ## Highlight Posters
 
-
+### Training a differentiable conceptual functional equivalent of the US national water model to estimate parameters for use in NextGen
+<span style="font-size: 0.9em;">
+2026 <br>
+Recommended citation: Li, Z., Wood, A., McKenzie, D., and Frame, J. M.: Training a differentiable conceptual functional equivalent of the US national water model to estimate parameters for use in NextGen, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-14714, https://doi.org/10.5194/egusphere-egu26-14714, 2026. <br>
+[Poster](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.pdf) \| [BibTeX](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.bib)
+</span>
 
