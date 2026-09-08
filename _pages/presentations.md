@@ -9,7 +9,7 @@ author_profile: true
 
 ### Incorporating Process-Based Models into Neuralhydrology -- Lessons Learned and Future Directions
 <span style="font-size: 0.9em;">
-Authors: Daniel McKenzie, Andy Wood, **Ziyu Li** <br>
+Authors: Daniel McKenzie, Andy Wood, *Ziyu Li* <br>
 May 29, 2026 <br>
 ML Workshop Talk, CIROH (Cooperative Institute for Research to Operations in Hydrology) DevCon 2026 <br>
 The University of Utah, Salt Lake City, Utah

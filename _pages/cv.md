@@ -9,9 +9,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Statistics, Colorado School of Mines, 2028 (Expected)
+* M.S. in Applied Mathematics, 2023
+* B.S. in Environmental Engineering 2020
+  * Certified in 40-hr Hazardous Waste Operations and Emergency Response (HAZWOP)
 
 Work experience
 ======
