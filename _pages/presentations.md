@@ -35,4 +35,11 @@ The University of Utah, Salt Lake City, UT, USA
     Authors: *Ziyu Li*, Doug Nychka <br>
 	2024 ENVR Workshop: Spatial Data Science for the Environment <br> Boulder, CO </span>
 
-
+### Rapid Approximate Prediction Method as an Alternative to Universal Kriging
+<span style="font-size: 0.9em;"> 
+Authors: *Ziyu Li*, Doug Nychka
+</span>
+- <span style="font-size: 0.9em;"> November 7, 2024 <br>
+	NSF Extremes Workshop: Collaborative Strategies for Predicting and Measuring Uncertainty in Rare Occurrences in Civil and Environmental Systems <br> Golden, CO </span>
+- <span style="font-size: 0.9em;"> Oct 4, 2024 <br>
+	2024 ENVR Workshop: Spatial Data Science for the Environment <br> Boulder, CO </span>
