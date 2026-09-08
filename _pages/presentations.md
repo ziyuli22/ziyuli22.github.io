@@ -24,9 +24,9 @@ Authors: *Ziyu Li*, Andy Wood, Daniel McKenzie, Jonathan M. Frame
 - <span style="font-size: 0.9em;"> May 28, 2026 <br>
 	CIROH DevCon 2026 <br> University of Utah, Salt Lake City, Utah</span>
 - <span style="font-size: 0.9em;"> May 6, 2026 <br>
-	EGU General Assembly 2026 <br> Vienna, Austria <br>
-	Recommended citation: Li, Z., Wood, A., McKenzie, D., and Frame, J. M.: Training a differentiable conceptual functional equivalent of the US national water model to estimate parameters for use in NextGen, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-14714, https://doi.org/10.5194/egusphere-egu26-14714, 2026. <br>
-    [Abstract](https://ziyuli22.github.io/files/2026_05_06_abstract_NHdCFE.pdf) \| [Poster](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.pdf) \| [BibTeX](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.bib)</span>
+	EGU General Assembly 2026 <br> Vienna, Austria <br> </span>
+	<span style="font-size: 0.7em;"> Recommended citation: Li, Z., Wood, A., McKenzie, D., and Frame, J. M.: Training a differentiable conceptual functional equivalent of the US national water model to estimate parameters for use in NextGen, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-14714, https://doi.org/10.5194/egusphere-egu26-14714, 2026. <br> </span>
+    <span style="font-size: 0.9em;"> [Abstract](https://ziyuli22.github.io/files/2026_05_06_abstract_NHdCFE.pdf) \| [Poster](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.pdf) \| [BibTeX](https://ziyuli22.github.io/files/2026_05_06_poster_NHdCFE.bib)</span>
 
 ### Adapting Differentiable CFE into NeuralHydrology to Train CFE Parameters for Use in NextGen
 <span style="font-size: 0.9em;"> 
