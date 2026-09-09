@@ -1,19 +1,14 @@
 ---
 layout: single
-title: "CV"
-permalink: /cv/
+title: "Teaching"
+permalink: /teaching/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-## Education
+## Teaching Philosophy
 
-* Ph.D in Statistics, Colorado School of Mines, Dec. 2028 (Expected)
-  * <span style="font-size: 0.9em;"> Advisors: [Douglas Nychka](https://dnychka.github.io/) and [Daniel Mckenzie](https://danielmckenzie.github.io/) </span>
-* M.S. in Applied Mathematics, May 2023
-* B.S. in Environmental Engineering, Dec. 2020
-  * <span style="font-size: 0.9em;"> Certified in 40-hr Hazardous Waste Operations and Emergency Response (HAZWOP) </span>
+My teaching is guided by the belief that curiosity can be fostered by the connection between mathematics and real world applications that are relevant to each individual student. This curiosity will reduce the fear and self-doubt about math for some while encourage passion for learning more for others. Not having learned any
+mathematics until the age of 12, I believe that anyone can learn math and math is relevant to anyone’s lives.
 
 ## Awards & Honors
 
