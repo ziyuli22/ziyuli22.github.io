@@ -37,7 +37,7 @@ redirect_from:
 
 * Summers 2022 -- 2026: Mathematics Instructor
   * <span style="font-size: 0.9em;"> PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder </span>
-  * <span style="font-size: 0.9em;"> Duties included: creating engaging lectures on pre-calculus, calculus, and introduction to statistics to underprivileged high school seniors to prepare and advance them in college level courses. </span>
+  * <span style="font-size: 0.9em;"> Duties included: creating engaging lectures on pre-calculus, calculus, and introduction to statistics to underprivileged high school juniors and seniors to prepare and advance them in college level courses. </span>
   * <span style="font-size: 0.9em;"> Supervisor: Amy Molina, Victor Hernandez, Valeria Morales, Angie Chavez-Lopez, M.A </span>
 
 * 2017 -- 2020: Student Laboratory Contractor/Physical Science Technician

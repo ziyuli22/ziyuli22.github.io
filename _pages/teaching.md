@@ -28,8 +28,10 @@ mathematics until the age of 12, I believe that anyone can learn any math that t
 * Summers 2022 -- 2026: Mathematics Instructor
   * <span style="font-size: 0.9em;"> PCDP (Pre-Collegiate Development Program), University of Colorado -- Boulder </span>
   * <span style="font-size: 0.9em;"> Supervisors: Amy Molina, Victor Hernandez, Valeria Morales, Angie Chavez-Lopez, M.A </span>
-  * <span style="font-size: 0.9em;"> Created engaging lectures on pre-calculus, calculus, and introduction to statistics to 20 -- 60 underprivileged high school seniors each summer to prepare and advance them in college level courses. Planned and created all assignments, topics included, and exams in the courses. </span>
+  * <span style="font-size: 0.9em;"> Created engaging lectures on pre-calculus, calculus, and introduction to statistics to 20 -- 60 underprivileged high school juniors and seniors each summer to prepare and advance them in college level courses. Planned and created all assignments, topics included, and exams in the courses. </span>
 
+* 2014 -- Present: Tutor
+  * <span style="font-size: 0.9em;"> Tutoring friends and classmates, with and without pay. </span>
 
 ## Presentations
 
