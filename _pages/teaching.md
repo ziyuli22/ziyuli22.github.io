@@ -32,15 +32,3 @@ mathematics until the age of 12, I believe that anyone can learn any math that t
 
 * 2014 -- Present: Tutor
   * <span style="font-size: 0.9em;"> Tutoring friends and classmates, with and without pay. </span>
-
-## Presentations
-
-[See "Presentations"](/presentations/)
-
-Teaching
-======
-<!-- Add teaching experience here. -->
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

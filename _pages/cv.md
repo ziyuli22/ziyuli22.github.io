@@ -54,10 +54,7 @@ redirect_from:
 
 [See "Presentations"](/presentations/)
 
-Teaching
-======
-<!-- Add teaching experience here. -->
+## Teaching
 
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[See "Teaching"](/teaching/)
+
